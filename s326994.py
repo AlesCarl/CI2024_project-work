@@ -27,5 +27,8 @@ def f6(x):  #  0,00114 with population_size=10k
 def f7(x):  # 330,14 wirh population_size=15k
     return exp(((x[0] * x[1]) - (-6 / 4)))
 
+
 def f8(x):  # 6.4e5 with population_size=20k
     return ((x[5] ^ 4) * ((-6 / 4) + (x[5] * 5)))
+
+
